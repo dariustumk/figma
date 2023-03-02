@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+a, a:hover, i, i:hover {cursor: pointer!important; text-decoration: none!important; -webkit-transition:all 0.5s ease 0s!important; -o-transition:all 0.5s ease 0s!important; transition:all 0.5s ease 0s!important;}
+.hero .info-block .main, .cause .blocks .col .head .count, h1, h2, h3, .graph, .stats .col .inf > div, .cta .text, .why .accordion .accordion-button span {font-family: 'Lora', serif;}
+body, .help .col .graph span {cursor: default; font-family: 'Roboto', sans-serif;}
+* {margin: 0; padding: 0; box-sizing: border-box;}
+.figma .container {max-width: 1170px;margin: auto;padding: 0!important; font-size: 16px;}
+.btn a {opacity:1!important; display: block; background-color:#FF7000; color:#fff!important;padding: 18px 23px 19px; text-transform:uppercase;font-weight: 300; font-size: 16px; line-height: 19px;border-radius: 5px;}
+.btn a:hover, .topbar a:hover {background-color:#333333;}
+header {z-index: 1;position: relative;}
+.hr {width: 100px; height: 3px; background-color: #FF7000;margin: 32px auto 39px;}
+.btn:active {border: 0 none;}
+body .progress {--bs-progress-bar-bg:#ff7000; --bs-progress-bg: #fff; height: 9px; border-radius: 4px; margin: 14px 0;}
+
+/*topbar*/
+.topbar {height: 55px; background-color: #FF7000;color: #fff;text-transform: none;}
+.topbar .row {margin: 0;}
+.topbar .row .col:first-child {font-style: italic; font-weight: 300;padding: 16px 0; font-size: 18px; line-height: 21.09px;}
+.topbar .row .col:last-child {padding: 0;}
+.topbar .row .col:last-child > div, .middlebar .contacts > div {float: right;}
+.topbar a {text-decoration:none;}
+.topbar a i {color: #fff;display: block;width:55px;height: 55px;padding: 19px;}
+
+/*middlebar*/
+.middlebar {height: 106px;background-color: #fff;width: 100%;}
+.middlebar .container {height: 100px; padding: 24px 0!important;}
+.middlebar .col:first-child {max-width:30%;}
+.middlebar .logo a {display: block; width: 147px; height: 53px;}
+.middlebar .logo a img {max-width: 147px;max-height: 53px;}
+.middlebar .contacts {padding-top: 4px;}
+.middlebar .contacts i {background-color: #F8F8F8; margin-right: 15px; width: 49px; height: 49px; color:#FF7000; font-size: 27px; border-radius: 50%; padding: 11px;}
+.middlebar .contacts a {font-size: 15px;}
+.middlebar .contacts a p {color:#000;line-height: 23px;font-weight: 700;margin: 0;}
+.middlebar .contacts a .name {font-weight: 300; line-height: 18px; color: #bababa;}
+.middlebar .contacts a:hover {opacity: 0.5;}
+.middlebar .contacts .txt {margin-right: 46px;}
+.middlebar .contacts .donate {margin: -5px 0 0;padding: 0;}
+
+/*navigation*/
+.navigation {height: 61px; background-color: #333333;}
+.navigation ul {padding: 0; margin: 0;}
+.navigation ul li {list-style: none;padding: 18px 28px;}
+.navigation ul li:first-child {padding-left: 0;}
+.navigation ul li:last-child {padding-right: 0;}
+.navigation ul li a {color: #fff; text-transform: capitalize;font-size: 16px; line-height: 24px; font-weight: 300;}
+.navigation ul li a:after {content: "+";color: #FF7000;font-weight: 300;font-size: 13px;margin-left: 14px;position: relative;top: -1px;}
+.navigation ul li a:hover {color: #FF7000;}
+
+/*hero*/
+.hero {height: 100%; z-index: 0; position: relative;}
+.hero .carousel {box-shadow: 1px -1px 14px #000;}
+.hero .info-block {position: absolute; width:auto;padding: 13% 0 0 ;}
+.hero .carousel-control-next, .hero .carousel-control-prev {opacity: 1;width: 10%;}
+.hero .carousel-control-next:hover, .hero .carousel-control-prev:hover {opacity: 1;}
+.hero i {font-size: 36px;color: #fff;background-color: #333;padding:20px 28px;border-radius: 50%;}
+.hero .carousel-control-next i:hover, .hero .carousel-control-prev i:hover {background-color: #FF7000;}
+.hero .info-block .main {font-size: 54px;color: #fff;font-weight: 700;width: 485px;line-height: 69.12px;}
+.hero .info-block .main span, .cause .header h1 span {color: #FF7000;}
+.hero .info-block .sub {font-weight: 300;color: #666666;font-size: 16px;line-height: 24px;width: 475px;padding: 23px 0 0;}
+.hero .btn {padding: 0; margin: 40px 0 0;}
+
+/*cause*/
+.cause {background-color: #fff; margin: 0; padding: 106px 0 135px;}
+.cause .header {text-align: center; margin: 0 0 115px;}
+.cause .header h1 {font-size: 54px; font-weight: 700; line-height: 69.12px;}
+.cause .header p {font-weight: 300; color: #666666;}
+.cause .blocks .col {text-align: center;}
+.cause .blocks .col a {display: block;}
+.cause .blocks .col a:hover {opacity: 0.6;}
+.cause .blocks .col .head {width: 100%;}
+.cause .blocks .col .head .count {width: 0;font-size: 55px;font-weight: 700;line-height: 70.4px;color: #000;opacity: 0.1;position: relative;top: 80px;}
+.cause .blocks .col .head .title {width: 100%;}
+.cause .blocks .col .head .title i {background-color: #FF7000;color: #fff;font-size: 36px;font-weight: 900;width: 90px;height: 90px;padding: 27px 29px 29px 28px;border-radius: 50%;margin: 0 0 25px;}
+.cause .blocks .col .head .title p, .cause .blocks .col .text {font-size:16px; color:#666666; margin: 0; line-height: 24px; font-weight: 300;}
+.cause .blocks .col .head .title h2 {margin: 0 0 24px; color: #000; font-size: 28px; line-height: 35.84px; font-weight: 700;}
+.cause .btn {text-align: center; padding: 0; width: 100%; margin: 100px 0 0;}
+.cause .btn a {padding: 18px 36px 19px 37px; display: inherit; margin: auto;}
+
+/*urgent*/
+.urgent {background-color:#444444; padding: 134px 0 205px;}
+.urgent span, .help span {color: #FF7000;}
+.urgent h1, .urgent h2 {color:#fff; font-size: 54px; line-height: 69.12px; font-weight: 700;}
+.urgent h2 {font-size: 45px; line-height: 54px; margin:35px 0 27px;}
+.urgent .hr {margin:32px 0 50px;}
+.urgent .col:first-child {max-width: 489px;}
+.urgent .col p {color: #666; font-size: 16px; line-height: 24px; font-weight: 300; margin: 0 0 65px;}
+.urgent .graph {color: #fff; max-width: 455px;}
+.urgent .graph .st {color:#FF7000;}
+.urgent .graph .st span {color:#fff;display: block; float: right; padding: 0 10px 0 0;}
+.urgent .graph .nd {width: 100%;}
+.urgent .col img {width:auto; max-width: 570px; border-radius: 8px;z-index: 0;display: block;position: relative;}
+.urgent .col .btn {padding: 0;position: relative;top: -130px;height: 0;left: 185px;}
+.urgent .col:last-child > div {float: right;}
+.urgent .col .btn a {padding:18px 45px 19px 46px;}
+.urgent .col .btn a:hover {background-color: #000;}
+
+/*help*/
+.help {padding: 135px 0 159px; background-color: #fff;}
+.help h1 {margin: 0; text-align: center; font-weight: 700;}
+.help p {text-align: center; margin: 0; color: #666;}
+.help .row {margin: 95px 0 84px;}
+.help .col {padding: 0 0 35px; background-color: #F8F8F8;max-width: 370px; margin: 0 30px 0 0;}
+.help .col:last-child {margin: 0;}
+.help .col h3 {text-transform: uppercase;color: #000;font-size: 21px;line-height: 26.88px;font-weight: 700;padding: 34px 32px 17px;margin: 0;height: 104px;overflow: hidden;}
+.help .col p {text-align:inherit; font-size: 16px; line-height: 24px; font-weight: 300; color: #666666; padding: 0 32px 34px;}
+.help .col .graph {width: 100%; padding: 0 32px;}
+.help .col .graph .progress {--bs-progress-bg: #999;}
+.help .col .graph .info {color: #FF7000; font-size: 21px; font-weight: 700; line-height: 26.88px;}
+.help .col .graph span {color: #666; font-weight: 300; font-size: 16px; line-height: 24px; padding: 0 0 0 14px;}
+.help .col .graph span:last-child {float: right; padding: 0;}
+.help .btn {padding: 0;width: auto;text-align: center;cursor: default !important;display: block;}
+.help .btn a {padding: 18px 36px 19px 37px;width: 191px;margin: 0 auto;}
+
+/*why*/
+.why {background-color: #F1F1F1; padding:114px 0 179px;}
+.why h1 {color: #000; font-weight: 700; font-size: 54px; line-height: 69.12px; margin: 0 0 32px;}
+.why h1 span {color: #FF7000;}
+.why .hr {margin: 0 0 39px;}
+.why .col.left p {line-height: 26px; color: #666; font-weight: 300;}
+.why .col.left iframe {margin: 30px 0 0;}
+.why .accordion {width: 500px; float: right;}
+.why .accordion .accordion-item {margin: 0 0 9px; border:0 none; background: none;}
+.why .accordion button.accordion-button i.fa-square-plus, .why .accordion button.accordion-button.collapsed i.fa-square-minus, .accordion-button:after {display: none;}
+.why .accordion button.accordion-button i.fa-square-minus, .why .accordion button.accordion-button.collapsed i.fa-square-plus {display: inherit;}
+.why .accordion button.accordion-button i {padding: 23px 16px 23px 21px; color: #FF7000!important;}
+.why .accordion .accordion-button {background-color:#D6D6D6;border: 0 none; border-radius: 0!important;padding: 0;}
+.why .accordion .accordion-button:focus {border: 0 none;box-shadow: none;}
+.why .accordion .accordion-button span {color: #000; font-size: 21px;line-height: 26.88px; font-weight: 600;}
+.why .accordion .accordion-body {padding: 19px 20px 13px;color: #666;line-height: 28px;font-weight: 300;}
+
+/*stats*/
+.stats {padding: 150px 0 0; background: #222 url("/assets/img/map.png") no-repeat scroll center center; height: 391px; overflow: hidden;}
+.stats .col {color: #fff;}
+.stats .col i {border-radius: 50%;color: #FF7000;background-color: #fff;font-size: 36px;line-height: 41.4px;width: 90px;height: 90px;padding: 25px 0 25px 3px;text-align: center;}
+.stats .col .inf {padding: 3px 0 0 21px;}
+.stats .col .inf > div {font-size: 45px; line-height: 57.6px; font-weight: 700;}
+.stats .col .inf p {font-size: 18px; font-weight: 300; line-height: 24px;}
+
+/*partners*/
+.partners {padding: 109px 0 123px;}
+.partners .container {text-align: center;}
+.partners h1 {font-size: 54px; font-weight: 700; line-height: 69.12px; color: #000; margin: 0 0 32px;}
+.partners h1 span {color: #FF7000;}
+.partners p {font-size: 16px; font-weight: 300; line-height: 24px; color: #666666; margin: 0 0 68px;}
+.partners .logos img {width: 170px; height: 85px; border: 1px solid #e7e7e7;margin: 0 30px 0 0;}
+.partners .logos img:last-child {margin: 0;}
+
+/*cta*/
+.cta {background-color: #FF7000; color: #fff;padding: 41px 0 40px;}
+.cta .text {width:80%; font-size: 28px; line-height: 54px; font-weight: 700;}
+.cta .buttn {width: 20%;}
+.cta .buttn a {padding: 19px; border-radius: 5px; width: 187px; height: 55px; text-align:center; text-transform:uppercase; display: block; float: right; color: #fff; background-color: #333; font-size: 16px; line-height: 18.75px;}
+.cta .buttn a:hover {background-color: #000;}
+
+/*footer*/
+.footer {color:#fff; font-weight: 300; font-size: 16px; line-height: 23px; padding: 114px 0 100px; background:#222 url("/assets/img/footer-bg.png") no-repeat scroll center 0;}
+.footer a {color: #fff;}
+.footer a:hover {color: #FF7000;}
+.footer .row .col img {max-width: 158px; height: auto;}
+.footer h4 {color: #FF7000; text-transform: uppercase; font-weight: 300; font-size: 18px; line-height: 24px;}
+.footer .row .col:first-child p {max-width: 227px; margin: 30px 0 0;}
+.footer .row .col.cnt i {font-size: 21px; line-height: 24.15px; margin: 0 9px 0 0;}
+.footer .row .col.cnt div.d-flex {margin: 0 0 19px;}
+.footer .row .col.cnt p {margin: 0;}
+.footer .hr {width: 50px; height: 1px; margin: 16px 0 34px;}
+.footer ul {padding: 0;}
+.footer ul li {list-style: none; margin: 0 0 17px;}
+.footer ul li i {font-size: 11px; margin:0 8px 0 0; position: relative; top: -1px;}
+.footer .row .col:last-child p {max-width: 227px; margin: 0 0 28px;}
+.footer .row .col:last-child a {margin: 0 30px 0 0;}
+.footer .row .col:last-child a:last-child {margin: 0;}
+.footer .row .col:last-child a:hover i {color: #fff;}
+.footer .row .col:last-child a i {font-size: 24px; color: #FF7000; width: 24px; height: 28px; line-height: 27.6px;}
+
+/*copyright*/
+.copyright {height: 121px; background-color: #333;}
+.copyright p {color: #fff; margin: 0; font-weight: 300; line-height: 21.79px; padding: 50px 0;}
+
+/*mob*/
+@media (max-width:1425px) {
+    body.figma .hero .container {max-width:900px;}
+}
+@media (max-width:1210px) {
+    body.figma .container {max-width:900px;}
+    body.figma .hero .container {max-width:800px;}
+    .topbar .row .col:first-child {font-size: 17px;}
+    .urgent {padding: 134px 0;}
+    .urgent .col img {max-width: 465px;}
+    .urgent .col p {margin: 0 0 35px;}
+    .urgent h2 {margin: 0 0 27px;}
+    .help .col {max-width: 280px; margin:0 20px 0 0;}
+    .help .col img {max-width: 280px;}
+    .why {padding: 114px 0 140px;}
+    .why .col.left iframe {margin: 10px 0 0;max-width: 368px;max-height: 256px;}
+    .stats .col i {font-size: 30px;width: 70px;height: 70px;padding: 15px 0 13px 2px;}
+    .partners .logos.d-flex {display: initial!important;}
+    .partners .logos img {margin: 0 5px 13px !important;}
+    .cta .text {font-size: 23px;}
+}
+@media (max-width:928px) {
+    body.figma .hero .container {max-width: 655px;}
+    .hero .info-block {padding: 8% 0 0;}
+    .hero .info-block .main {font-size: 45px;line-height: 53.12px;}
+}
+@media (max-width:904px) {
+    body.figma .container {max-width: 610px;}
+    .btn a {padding: 15px 18px;font-size: 13px;}
+    .topbar .row .col:last-child {max-width: 30%;}
+    .topbar a i {width: 45px;padding: 20px 0;text-align: center;}
+    .topbar .row .col:first-child {font-size: 15px;}
+    .middlebar {height: 88px;}
+    .middlebar .logo a img {max-width: 115px;}
+    .middlebar .container {height: 80px;padding: 20px 0 !important;}
+    .middlebar .col:first-child {max-width: 22%;padding-top: 5px;}
+    .middlebar .contacts a {font-size: 13px;}
+    .middlebar .contacts .txt {margin-right: 20px;}
+    .middlebar .contacts i {margin-right: 10px;width: 40px;height: 40px;font-size: 18px;padding: 11px 0;text-align: center;}
+    .middlebar .contacts a {font-size: 12px;}
+}
